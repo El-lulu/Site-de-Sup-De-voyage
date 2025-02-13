@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Déstination</title>
+</head>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+
+  p1 {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .menus-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .menu-container {
+    width: 500px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .menu-header {
+    background-color: #4c90af;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .menu-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  .menu-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  div.menu-content button a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color:#4c90af;
+  }
+  </style>
+<body>
+    <div class="topnav">
+        <img src="image/logo.png" height="150" width="150">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="destination.html"> Déstination </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="titledestination">
+      
+        <H1>Voici nos déstination</H1>
+    </div>
+
+    <p>Sup de voyage vous propose 3 déstination exeptionnel</p>
+
+
+<div>
+    <div class="menus-wrapper">
+        <div class="menu-container">
+          <div class="menu-header" onclick="toggleMenu('menuCuba')">Cuba</div>
+          <div class="menu-content" id="menuCuba">
+            <img src="image/Cuba.jpg" alt="Image de Cuba">
+            <p1>Cuba : Île des Caraïbes, célèbre pour ses plages paradisiaques, ses vieilles voitures colorées et son ambiance rythmée par la salsa.</p>
+              <button><a href="resa.html"> Réservation</a></button>
+          </div>
+        </div>
+      
+        <div class="menu-container">
+          <div class="menu-header" onclick="toggleMenu('menuDubai')">Dubaï</div>
+          <div class="menu-content" id="menuDubai">
+            <img src="image/dubai.jpg" alt="Image de Dubaï">
+            <p1>Dubaï : Ville futuriste des Émirats, connue pour ses gratte-ciels vertigineux, ses centres commerciaux luxueux et ses expériences désertiques uniques.</p>
+              <button><a href="resa.html"> Réservation</a></button> 
+           </div>
+        </div>
+      
+        <div class="menu-container">
+          <div class="menu-header" onclick="toggleMenu('menuGrece')">Grèce</div>
+          <div class="menu-content" id="menuGrece">
+            <img src="image/background.jpg" alt="Image de Grèce">
+            <p1>Grèce : Pays méditerranéen, berceau de la civilisation antique, célèbre pour ses îles aux maisons blanches et ses eaux turquoise.</p>
+              <button><a href="resa.html"> Réservation</a></button>
+            </div>
+        </div>
+      </div>
+      
+      <script>
+        function toggleMenu(menuId) {
+          const menuContent = document.getElementById(menuId);
+          if (menuContent.style.display === 'none' || menuContent.style.display === '') {
+            menuContent.style.display = 'block';
+          } else {
+            menuContent.style.display = 'none';
+          }
+        }
+      </script>
+      
+</div>
+    
+
+</body>
+</html>

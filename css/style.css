@@ -1,0 +1,189 @@
+div.boite {
+    background-image: url(../image/plage.jpg);
+    background-size: cover;
+    height: 75vh;
+
+}
+
+div.topnav {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div.souspage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.titre {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.titreval {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.titre {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+
+}
+
+div.info {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li {
+    margin: 15px;
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    float: right;
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: monospace;
+    color: rgb(0, 0, 0)
+}
+
+div.titledestination {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+}
+
+div.bouton a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+div.avis button a{
+
+    text-decoration: none;
+    color: #000000;
+
+}
+
+
+a:hover {
+    color: #125e82;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+}
+
+
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+form input {
+    background-color: rgb(156, 156, 156);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 17px;
+
+}
+
+form button {
+    background-color: rgb(82, 82, 82);
+    font-size: 15px;
+    font-family: 'arial';
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+div.tete {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+label {
+
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family: arial;
+
+}
+
+input {
+
+    color: rgb(0, 0, 0);
+}
+
+div.textepack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.textepack2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.send button a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(0, 0, 0)
+}
